@@ -1,0 +1,79 @@
+:root {
+  --accent-color: #fb6d3a;
+  --title-color: #000000;
+  --title-color-sidebar: #ffffff;
+  --main-color-text: #595959;
+  --background-color-sidebar: #100631;
+  --background-color-main-conteiner: #ffff;
+}
+body {
+  background-color: #f5f7fa;
+  font-family: 'Montserrat', sans-serif;
+}
+/* ----------------MAIN CONTEINER */
+.main-conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: var(--background-color-main-conteiner);
+  margin: 40px auto;
+}
+/* -------------MAIN CONTAINER SECTION */
+.right-part {
+  margin: 20px 50px 20px 50px;
+}
+.about-me-profession {
+  font-size: 700;
+  font-size: 14px;
+  color: var(--title-color);
+}
+.work-company {
+  color: var(--accent-color);
+}
+/* -------------------SIDE BAR SECTION */
+.side-bar {
+  padding: 40px 0px;
+  background-color: var(--background-color-sidebar);
+}
+.contacts-skills {
+  margin: 50px 0 0 40px;
+}
+.sidebar-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  color: var(--title-color-sidebar);
+  margin-bottom: 10px;
+}
+/* ----------------CONTACTS SECTION */
+.contacts-section {
+  padding: 20px 50px;
+}
+.contact-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--title-color-sidebar);
+  margin-right: 5px;
+}
+.contact-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgb(255, 255, 255, 0.5);
+}
+.contact-link:hover,
+.contact-link:focus {
+  font-size: 17px;
+  color: var(--accent-color);
+}
+/* ---------- SKILLS SECTION */
+.skills-list {
+  padding: 0 0 0 17px;
+}
+.skills-item {
+  color: var(--accent-color);
+}
+.item-text {
+  color: var(--title-color-sidebar);
+}

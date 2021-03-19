@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=My, initial-scale=1.0">
     <title>Resume Gvozdetska</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <!--MAIN CONTEINER-->
-            <div>
+            <div class="main-conteiner">
                 <!--MAIN CONTEINER SECTION-->
-            <div>       
+            <div class="right-part">       
             <!-- ABOUT ME SECTION-->
-            <div>
-            <h2>Front-End Developer</h2>
+            <div class="about-me-section">
+            <h2 class="about-me-profession">Front-End Developer</h2>
             <h1>Yuliya Gvozdetska</h1>
                 <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. 
@@ -21,31 +24,32 @@
             Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
             </div>
             <!--MY PROJECTS SECTION-->
-            <div>
+            <div class="my-projects-section">
             <h3>Projects</h3>
             <ol>
                 <li>
                     <a href="http://hellenglish.goit.education">//hellenglish.goit.education/</a>
-                    <span>.....</span>
+                    <span>............................................................................</span>
                     <span>[ HTML5, CSS3 ]</span>
                 </li>
                 <li>
                     <a href="http://kidslike.goit.global">//kidslike.goit.global/</a>
-                    <span>.....</span>
+                    <span>..............................................................................................</span>
                     <span>[ JavaScript ]</span>
                 </li>
                 <li>
                     <a href="http://cryptohub.goit.global">//cryptohub.goit.global/</a>
-                    <span>.....</span>
+                    <span>.......................................................................................</span>
                     <span>[ React.js, Node.js ]</span>
                 </li>
             </ol>
             </div>
             <!--WORK EXPERIENCE SECTION-->
-            <div>
+            <div class="my-work-experience">
+                <div>
                 <h3>Work experience</h3>
                 <!--COMPANY 3-->
-                <h4>Front-End Developer Freelance</h4>
+                <h4>Front-End Developer <span class="work-company">Freelance</span></h4>
                 <p>September 2019 - up to now | Country</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim unde quod cum, </li>
@@ -53,10 +57,11 @@
                     <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda dolore laboriosam cumque consectetur doloribus praesentium error id deleniti. </li>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti quia sit ea veritatis accusamus omnis iste aliquam. </li>
                 </ul>
-            </div>
+                </div>
+            
             <div>
                 <!--COMPANY 2-->
-                <h4>Manager Roga & Kopyta New</h4>
+                <h4>Manager <span class="work-company">Roga & Kopyta New</span></h4>
                 <p>March 2015 - October 2018 | Country</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim unde quod cum, </li>
@@ -68,7 +73,7 @@
             </div>
             <div>
                 <!--COMPANY 1-->
-                <h4>Manager Roga & Kopyta LLC</h4>
+                <h4>Manager <span class="work-company">Roga & Kopyta LLC</span></h4>
                 <p>June 2014 - February 2015 | Country</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim unde quod cum, </li>
@@ -79,54 +84,58 @@
                         doloribus praesentium error id deleniti. </li>
                 </ul>
             </div>
+            </div>
             <!--EUCATION-->
-            <div>
+            <div class="my-education">
                 <h3>Education</h3>
-                <h4>National University of Radioelectronics</h4>
+                <h4><span class="work-company">National University of Radioelectronics</span></h4>
                 <h5>Management</h5>
                 <p>September 2009 - June 2014 | Country</p>
             </div> 
             </div> 
-        </div>
+        
         <!--SIDE BAR-->
-    <aside>
-        <img src="/Resume-Gvozdetska/images/photo.jpg" width="370" alt="My photo">
+    <aside class="side-bar">
+        <img src="/images/photo.jpg " width="370" alt="My photo">
         <!--CONTACTS SECTION-->
-        <div>
-            <h3>Contacts</h3>
+        <div class="contacts-section">
+        <div class="contacts-skills">
+            <h3 class="sidebar-title">Contacts</h3>
             <div>
-            <span>C:</span>
-            <a href="tel:+380634776786">+380634776786</a>
+            <span class="contact-type">C:</span>
+            <a class="contact-link" href="tel:+380634776786">+380634776786</a>
             </div>
             <div>
-            <span>M:</span>
-            <a href="mailto:ulusik@ukr.net">ulusik@ukr.net</a>
+            <span class="contact-type">E:</span>
+            <a class="contact-link" href="mailto:ulusik@ukr.net">ulusik@ukr.net</a>
             </div>
         </div>
         <!--TECH SKILLS SECTION-->
-        <div>
-            <h3>Tech skills</h3>
-            <ul>
-            <li>HTML5</li> 
-            <li>CSS3</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
+        <div class="contacts-skills">
+            <h3 class="sidebar-title">Tech skills</h3>
+            <ul class="skills-list">
+            <li class="skills-item"><span class="item-text">HTML5</span></li> 
+            <li class="skills-item"><span class="item-text">CSS3</span></li>
+            <li class="skills-item"><span class="item-text">CSS3</span></li>
+            <li class="skills-item"><span class="item-text">GIT</span></li>
+            <li class="skills-item"><span class="item-text">WebPack</span></li>
+            <li class="skills-item"><span class="item-text">JavaScript</span></li>
+            <li class="skills-item"><span class="item-text">React.js</span></li>
+            <li class="skills-item"><span class="item-text">Node.js</span></li>
             </ul>                          
         </div>
         <!--SOFT SKILLS SECTION-->
-        <div>
-            <h3>Tech skills</h3>
-            <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+        <div class="contacts-skills">
+            <h3 class="sidebar-title">Soft skills</h3>
+            <ul class="skills-list">
+            <li class="skills-item"><span class="item-text">Scrum</span></li>
+            <li class="skills-item"><span class="item-text">Agile</span></li>
+            <li class="skills-item"><span class="item-text">GTD</span></li>
+            <li class="skills-item"><span class="item-text">Teamwork</span></li>
             </ul>
         </div>
+        </div>
     </aside>  
+    </div>
 </body>
 </html>
