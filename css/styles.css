@@ -11,24 +11,112 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 /* ----------------MAIN CONTEINER */
+.link {
+  text-decoration: none;
+}
 .main-conteiner {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
   background-color: var(--background-color-main-conteiner);
   margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
 }
 /* -------------MAIN CONTAINER SECTION */
 .right-part {
   margin: 20px 50px 20px 50px;
+  padding: 100px 90px;
 }
 .about-me-profession {
   font-size: 700;
   font-size: 14px;
+  line-height: 1.2;
   color: var(--title-color);
+}
+.my-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+  color: var(--title-color);
+  margin: 0 0 25 0;
+}
+.about-me-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color-text);
+  margin: 0 0 40 0;
+}
+.titles-of-sections {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  color: var(--title-color);
+  margin: 0 0 10 0;
+}
+/* -------------PROJECTS SECTION */
+.projects-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  padding: 0 0 0 17px;
+  color: var(--title-color);
+}
+.projects-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color-text);
+  margin-left: 5px;
+}
+.project-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color-text);
+}
+/* -----------WORK EXPERIENCE SECTION */
+.work-experience-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.work-place {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--title-color);
+  margin: 0 0 10px 0;
 }
 .work-company {
   color: var(--accent-color);
+}
+.period {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a8a8a8;
+  margin: 10px 0;
+}
+.work-period-sign {
+  color: var(--title-color);
+}
+.work-deskription-list {
+  margin: 0 0 40px 0;
+  padding: 0 0 0 20px;
+}
+.work-deskription-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color-text);
+}
+/* --------------EDUCATION */
+.education-specialty {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--title-color);
+  margin: 10px 0px;
 }
 /* -------------------SIDE BAR SECTION */
 .side-bar {
@@ -70,6 +158,8 @@ body {
 /* ---------- SKILLS SECTION */
 .skills-list {
   padding: 0 0 0 17px;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .skills-item {
   color: var(--accent-color);
